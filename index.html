@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>サンドイッチメーカー v1.0</title>
+</head>
+<body>
+  <h1>サンドイッチメーカー v1.0</h1>
+  <p>サンドイッチを作ろう！</p>
+
+  <h2>パンを選ぶ</h2>
+  <label><input type="radio" name="bread" value="トースト"> トースト</label><br>
+  <label><input type="radio" name="bread" value="バケット"> バケット</label><br>
+  <label><input type="radio" name="bread" value="ベーグル"> ベーグル</label><br>
+  <label><input type="radio" name="bread" value="クロワッサン"> クロワッサン</label><br>
+  <label><input type="radio" name="bread" value="マフィン"> マフィン</label><br>
+  <label><input type="radio" name="bread" value="フォカッチャ"> フォカッチャ</label><br>
+
+  <h2>メイン具材を選ぶ</h2>
+  <label><input type="radio" name="main" value="分厚いベーコン"> 分厚いベーコン</label><br>
+  <label><input type="radio" name="main" value="フィッシュフライ"> フィッシュフライ</label><br>
+  <label><input type="radio" name="main" value="スモークサーモン"> スモークサーモン</label><br>
+  <label><input type="radio" name="main" value="大盛りシュリンプ"> 大盛りシュリンプ</label><br>
+  <label><input type="radio" name="main" value="ローストチキン"> ローストチキン</label><br>
+  <label><input type="radio" name="main" value="ふんわりオムレツ"> ふんわりオムレツ</label><br>
+  <label><input type="radio" name="main" value="カマンベールチーズ"> カマンベールチーズ</label><br>
+  <label><input type="radio" name="main" value="あらびきヴルスト"> あらびきヴルスト</label><br>
+
+  <h2>サブ具材を選ぶ</h2>
+  <label><input type="radio" name="sub" value="トマト＆レタス"> トマト＆レタス</label><br>
+  <label><input type="radio" name="sub" value="千切りキャベツ"> 千切りキャベツ</label><br>
+  <label><input type="radio" name="sub" value="ぴりっとルッコラ"> ぴりっとルッコラ</label><br>
+  <label><input type="radio" name="sub" value="スライスチーズ"> スライスチーズ</label><br>
+  <label><input type="radio" name="sub" value="ツナマヨネーズ"> ツナマヨネーズ</label><br>
+  <label><input type="radio" name="sub" value="チリコンカーン"> チリコンカーン</label><br>
+  <label><input type="radio" name="sub" value="アボカドペースト"> アボカドペースト</label><br>
+  <label><input type="radio" name="sub" value="たまごサラダ"> たまごサラダ</label><br>
+
+  <p><button id="make">サンドイッチ作成</button></p>
+
+  <h2>結果</h2>
+  <p id="result">ここに結果が表示されます</p>
+
+  <script src="app.js"></script>
+</body>
+</html>
